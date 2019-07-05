@@ -1,0 +1,44 @@
+  <!-- <div class="navigation_cont" malihu-scrollbar [scrollbarOptions]="scrollbarOptions"> -->
+      <div class="navigation_cont" >
+      <div routerLinkActive="active"  routerLink="../dashboard" class="nav_logo">
+          <img src="{{basehref}}assets/images/cms_logo.jpg" alt="">
+      </div>
+      <ul class="nav_items">
+        <li class="nav_item"  matTooltip="New" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+          <a routerlink="new" routerLinkActive="active">
+            <img class="nav_item_img" src="{{basehref}}assets/images/icons/add_icon_001.svg" alt="">
+          </a>
+        </li>
+        <li class="nav_item" matTooltip="External" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+          <a class="" routerLink="./external" routerLinkActive="active">
+            <img class="nav_item_img_001" src="{{basehref}}assets/images/icons/external_nav_icon.svg" alt="">
+          </a>
+        </li>
+        <li class="nav_item" matTooltip="Internal" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+            <a routerLink="./internal" routerLinkActive="active"><img class="nav_item_img_001" src="{{basehref}}assets/images/icons/internal_nav_icon.svg" alt=""></a>
+        </li>
+        <li class="nav_item">
+          <a routerlink="external/new" routerLinkActive="active" matTooltip="Mail" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+            <img class="nav_item_img_001" src="{{basehref}}assets/images/icons/group_message_icon.svg" alt="">
+          </a>
+        </li>
+      </ul>
+      <ul class="nav_items_001">
+        <li class="nav_item">
+          <a class="nav_icon_002"  matTooltip="Notification" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+            <span class="notif_icon">23</span>
+            <img class="nav_item_img_002" src="{{basehref}}assets/images/icons/notification.svg" alt="">
+          </a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_icon_002" matTooltip="settings" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+            <img class="nav_item_img_002" src="{{basehref}}assets/images/icons/settings.svg" alt="">
+          </a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_icon_002"  matTooltip="Profile" matTooltipClass="matTooltip_001" matTooltipPosition="right">
+            <img class="nav_item_user" src="{{basehref}}assets/images/user_img_001.jpg" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>    
