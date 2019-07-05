@@ -92,7 +92,7 @@ export class NewIntInboundComponent implements OnInit {
   searchExtOrgFieldShow: boolean;
   searchSenderDeptFieldShow: boolean;
   searchRecipientDeptFieldShow: boolean;
-
+  testChange: boolean;
 
   constructor(private correspondenceService: CorrespondenceService, 
     private CorrespondenceShareService: CorrespondenceShareService,
